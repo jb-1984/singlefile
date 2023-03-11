@@ -1,0 +1,437 @@
+{
+  "colors": {
+    "text": {
+      "default": {
+        "value": "{colors.origin.white}",
+        "type": "color",
+        "description": "Used for normal text in dark mode. Built using colors.origin.black"
+      },
+      "secondary": {
+        "value": "rgba({colors.origin.white},{opacity.darkSecondaryText})",
+        "type": "color",
+        "description": "Used for secondary text in dark mode - colors.origin.white @ 70%"
+      },
+      "defaultInverse": {
+        "value": "{colors.coolGray.900}",
+        "type": "color",
+        "description": "Used for inverse text in dark mode. Built using colors.cool-gray.900"
+      },
+      "disabled": {
+        "value": "rgba({colors.origin.white},{opacity.darkDisabledText})",
+        "type": "color",
+        "description": "Used for disabled text in dark mode colors.origin.white @ 60%"
+      },
+      "primary": {
+        "value": "{colors.primary.400}",
+        "type": "color",
+        "description": "Used as primary text color in dark mode. Built using primary-400"
+      },
+      "error": {
+        "value": "{colors.red.400}",
+        "type": "color",
+        "description": "Use for warn text. Built using red-400"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{colors.origin.white}",
+        "type": "color",
+        "description": "Default color for icons in dark mode. Built using colors.origin.white"
+      },
+      "primary": {
+        "value": "{colors.primary.400}",
+        "type": "color",
+        "description": "Default color for icons in dark mode. Built using colors.primary.400"
+      },
+      "error": {
+        "value": "{colors.red.400}",
+        "type": "color",
+        "description": "Built using colors.red.400"
+      },
+      "success": {
+        "value": "{colors.green.400}",
+        "type": "color",
+        "description": "Built using colors.green.400"
+      },
+      "warning": {
+        "value": "{colors.yellow.300}",
+        "type": "color",
+        "description": "Built using colors.yellow.300"
+      },
+      "disabled": {
+        "value": "rgba({colors.origin.white},{opacity.darkDisabledText})",
+        "type": "color",
+        "description": "built with colors.origin.white @ 60%"
+      }
+    },
+    "state": {
+      "activeFocused": {
+        "value": "rgba({colors.primary.100},{opacity.opacity32})",
+        "type": "color",
+        "description": "Built using colors.primary.100"
+      },
+      "inactiveFocused": {
+        "value": "rgba({colors.primary.100}, {opacity.opacity32})",
+        "type": "color",
+        "description": "built using colors.primary.100 @ 32%"
+      },
+      "activeUnfocused": {
+        "value": "{colors.neutral.100}",
+        "type": "color",
+        "description": "Built using colors.neutral.100"
+      },
+      "inactiveHover": {
+        "value": "{colors.neutral.100}",
+        "type": "color",
+        "description": "Built using colors.neutral.100"
+      },
+      "keyboardFocus": {
+        "value": "{colors.origin.black}",
+        "type": "color",
+        "description": "Built using colors.origin.black"
+      },
+      "activeHover": {
+        "value": "{colors.primary.100}",
+        "type": "color",
+        "description": "Built using colors.primary.100"
+      },
+      "activePressed": {
+        "value": "{colors.primary.200}",
+        "type": "color",
+        "description": "Built using colors.primary.200"
+      },
+      "inactivePressed": {
+        "value": "{colors.coolGray.300}",
+        "type": "color",
+        "description": "Built using colors.cool-grey.300"
+      }
+    },
+    "functionalBg": {
+      "purple": {
+        "value": "{colors.purple.400}",
+        "type": "color",
+        "description": "Built using colors.purple.400"
+      },
+      "blue": {
+        "value": "{colors.blue.400}",
+        "type": "color",
+        "description": "Built using colors.blue.400"
+      },
+      "teal": {
+        "value": "{colors.teal.400}",
+        "type": "color",
+        "description": "Built using colors.teal.400"
+      },
+      "green": {
+        "value": "{colors.green.400}",
+        "type": "color",
+        "description": "Built using colors.green.400"
+      },
+      "yellow": {
+        "value": "{colors.yellow.400}",
+        "type": "color",
+        "description": "Built using colors.yellow.400"
+      },
+      "orange": {
+        "value": "{colors.orange.400}",
+        "type": "color",
+        "description": "Built using colors.orange.400"
+      },
+      "red": {
+        "value": "{colors.red.300}",
+        "type": "color",
+        "description": "Built using colors.red.300"
+      },
+      "pink": {
+        "value": "{colors.pink.400}",
+        "type": "color",
+        "description": "Built using colors.pink.400"
+      }
+    },
+    "functionalText": {
+      "purple": {
+        "value": "{colors.purple.300}",
+        "type": "color",
+        "description": "Built using colors.purple.300"
+      },
+      "blue": {
+        "value": "{colors.lightBlue.300}",
+        "type": "color",
+        "description": "Built using colors.light-blue.300"
+      },
+      "teal": {
+        "value": "{colors.teal.300}",
+        "type": "color",
+        "description": "Built using colors.teal.300"
+      },
+      "green": {
+        "value": "{colors.green.300}",
+        "type": "color",
+        "description": "Built using colors.green.300"
+      },
+      "yellow": {
+        "value": "{colors.yellow.300}",
+        "type": "color",
+        "description": "Built using colors.yellow.300"
+      },
+      "orange": {
+        "value": "{colors.orange.300}",
+        "type": "color",
+        "description": "Built using colors.orange.300"
+      },
+      "red": {
+        "value": "{colors.red.300}",
+        "type": "color",
+        "description": "Built using colors.red.300"
+      },
+      "pink": {
+        "value": "{colors.pink.300}",
+        "type": "color",
+        "description": "Built using colors.pink.300"
+      }
+    },
+    "buttonState": {
+      "basicHover": {
+        "value": "rgba({colors.origin.black},{opacity.opacity4})",
+        "type": "color",
+        "description": "built with origin black @ 4%"
+      },
+      "basicPressed": {
+        "value": "rgba({colors.origin.black},{opacity.opacity8})",
+        "type": "color",
+        "description": "built with origin black @ 8%"
+      },
+      "primaryHover": {
+        "value": "rgba({colors.primary.600},{opacity.opacity4})",
+        "type": "color",
+        "description": "built with colors.primary.600 @ 4%"
+      },
+      "primaryPressed": {
+        "value": "rgba({colors.primary.600},{opacity.opacity10})",
+        "type": "color",
+        "description": "built with colors.primary.600 @ 10%"
+      },
+      "warnHover": {
+        "value": "rgba({colors.red.600},{opacity.opacity4})",
+        "type": "color",
+        "description": "built with colors.red.600 @ 4%"
+      },
+      "warnPressed": {
+        "value": "{colors.red.600}*opacity.opacity-10",
+        "type": "color",
+        "description": "built with colors.red.600 @ 10%"
+      },
+      "flatHover": {
+        "value": "rgba({colors.origin.white},{opacity.opacity8})",
+        "type": "color",
+        "description": "built with colors.origin.white @ 8%"
+      },
+      "flatPressed": {
+        "value": "rgba({colors.origin.white}*{opacity.opacity10})",
+        "type": "color",
+        "description": "built with colors.origin.white @ 10%"
+      }
+    },
+    "background": {
+      "nav": {
+        "value": "{colors.coolGray.800}",
+        "type": "color",
+        "description": "built with colors.cool-gray.800"
+      },
+      "page": {
+        "value": "{colors.gray.800}",
+        "type": "color",
+        "description": "built using colors.gray.800"
+      },
+      "primary": {
+        "value": "{colors.primary.400}",
+        "type": "color",
+        "description": "built using colors.primary.400"
+      },
+      "error": {
+        "value": "{colors.red.400}",
+        "type": "color",
+        "description": "built using colors.red.400"
+      },
+      "disabled": {
+        "value": "{colors.origin.black}",
+        "type": "color",
+        "description": "built using colors.origin.black"
+      },
+      "default": {
+        "value": "{colors.origin.black}",
+        "type": "color",
+        "description": "built using colors.origin.black"
+      }
+    },
+    "border": {
+      "active": {
+        "value": "{colors.primary.400}",
+        "type": "color",
+        "description": "built using colors.primary.400"
+      },
+      "default": {
+        "value": "{colors.coolGray.400}",
+        "type": "color",
+        "description": "built using colors.cool-gray.400"
+      },
+      "error": {
+        "value": "{colors.red.400}",
+        "type": "color",
+        "description": "built using colors.red.400"
+      },
+      "disabled": {
+        "value": "{colors.neutral.400}",
+        "type": "color",
+        "description": "built using colors.neutral.400"
+      },
+      "warning": {
+        "value": "{colors.yellow.300}",
+        "type": "color",
+        "description": "built using colors.yellow.300"
+      },
+      "white": {
+        "value": "{colors.origin.white}",
+        "type": "color",
+        "description": "built using colors.origin.white"
+      }
+    }
+  },
+  "border": {
+    "default": {
+      "value": {
+        "color": "{colors.border.default}",
+        "width": "{borderWidth.1}",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "default 1px solid border "
+    },
+    "active": {
+      "value": {
+        "color": "{colors.border.active}",
+        "width": "{borderWidth.2}",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "active 1px solid border "
+    },
+    "error": {
+      "value": {
+        "color": "{colors.border.error}",
+        "width": "{borderWidth.2}",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "error 1px solid border "
+    },
+    "disabled": {
+      "value": {
+        "color": "{colors.border.disabled}",
+        "width": "{borderWidth.1}",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "disabled 1px solid border "
+    },
+    "warning": {
+      "value": {
+        "color": "{colors.border.warning}",
+        "width": "{borderWidth.1}",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "warning 1px solid border "
+    },
+    "white": {
+      "value": {
+        "color": "{colors.border.white}",
+        "width": "{borderWidth.1}",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "white 1px solid border "
+    },
+    "calendar": {
+      "value": {
+        "color": "{colors.coolGray.400}",
+        "width": "{borderWidth.half}",
+        "style": "dashed"
+      },
+      "type": "border",
+      "description": ".5px dashed border for calendar"
+    },
+    "fileUpload": {
+      "value": {
+        "color": "{colors.coolGray.400}",
+        "width": "{borderWidth.1}",
+        "style": "dashed"
+      },
+      "type": "border",
+      "description": "1px dashed border for file upload"
+    },
+    "drag": {
+      "value": {
+        "color": "{colors.blue.400}",
+        "width": "{borderWidth.2}",
+        "style": "dashed"
+      },
+      "type": "border",
+      "description": "2px dashed border for drag"
+    },
+    "hover": {
+      "value": {
+        "color": "{colors.border.default}",
+        "width": "{borderWidth.2}",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "borderMisc": {
+      "value": {
+        "color": "{colors.border.disabled}",
+        "width": "{borderWidth.1}",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "Border for card and visual input component"
+    }
+  },
+  "boxShadow": {
+    "shadowBase": {
+      "value": [
+        {
+          "x": "0",
+          "y": "1",
+          "blur": "10",
+          "spread": "0",
+          "color": "#00000033",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "5",
+          "spread": "0",
+          "color": "#000000ff",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "#00000024",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Base box shadow. Used in toast, menu's"
+    },
+    "shadow6": {
+      "value": "{boxShadow.shadowBase}*6",
+      "type": "boxShadow",
+      "description": "Used on dialogs, modals"
+    }
+  }
+}

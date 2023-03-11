@@ -1,0 +1,389 @@
+{
+  "fontFamilies": {
+    "openSans": {
+      "value": "Open Sans",
+      "type": "fontFamilies"
+    }
+  },
+  "lineHeights": {
+    "10": {
+      "value": "39",
+      "type": "lineHeights"
+    },
+    "20": {
+      "value": "35",
+      "type": "lineHeights"
+    },
+    "30": {
+      "value": "32",
+      "type": "lineHeights"
+    },
+    "40": {
+      "value": "23",
+      "type": "lineHeights"
+    },
+    "50": {
+      "value": "19",
+      "type": "lineHeights"
+    },
+    "60": {
+      "value": "20",
+      "type": "lineHeights"
+    }
+  },
+  "fontWeights": {
+    "regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "semiBold": {
+      "value": "SemiBold",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    }
+  },
+  "fontSizes": {
+    "10": {
+      "value": "12",
+      "type": "fontSizes"
+    },
+    "20": {
+      "value": "14",
+      "type": "fontSizes"
+    },
+    "30": {
+      "value": "20",
+      "type": "fontSizes"
+    },
+    "40": {
+      "value": "25",
+      "type": "fontSizes"
+    },
+    "50": {
+      "value": "31",
+      "type": "fontSizes"
+    }
+  },
+  "letterSpacing": {
+    "0": {
+      "value": "0%",
+      "type": "letterSpacing"
+    }
+  },
+  "paragraphSpacing": {
+    "10": {
+      "value": "0",
+      "type": "paragraphSpacing"
+    }
+  },
+  "typography": {
+    "heading": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.10}",
+        "fontSize": "{fontSizes.50}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Typography style for page heading. In most cases used in the app shell header for the app name. Semantic element - <h1>Content</h1>"
+    },
+    "title": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSizes.40}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Typography style for page or section titles. Semantic element - <h2>Content</h2>"
+    },
+    "subHeadSemiBold": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.semiBold}",
+        "lineHeight": "{lineHeights.30}",
+        "fontSize": "{fontSizes.30}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Typography style for section subheader bold version. Semantic element - <h3>Content</h3>"
+    },
+    "subHead": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.30}",
+        "fontSize": "{fontSizes.30}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Typography style for section header. Semantic element - H3"
+    },
+    "bodyBold": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.bold}",
+        "lineHeight": "{lineHeights.40}",
+        "fontSize": "{fontSizes.20}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Typography style for page content bold style. Semantic element - <p>Content <strong>bold style content</strong></p>"
+    },
+    "bodySemiBold": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.semiBold}",
+        "lineHeight": "{lineHeights.40}",
+        "fontSize": "{fontSizes.20}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Typography style for bold body text. Semantic element - <p>Content</p>"
+    },
+    "bodySemiBoldUnderline": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.semiBold}",
+        "lineHeight": "{lineHeights.40}",
+        "fontSize": "{fontSizes.20}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.underline}"
+      },
+      "type": "typography",
+      "description": "Typography style for page content in bold underline style. Semantic element - <p>Content <u>underline</u></p>"
+    },
+    "bodySemiBoldTag": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.semiBold}",
+        "lineHeight": "{lineHeights.60}",
+        "fontSize": "{fontSizes.20}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Typography style for page content in semi-bold style. Semantic element - <p>Content</p>"
+    },
+    "body": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.40}",
+        "fontSize": "{fontSizes.20}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Typography style for page content. Semantic element - <p>Content</p>"
+    },
+    "captionBold": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.bold}",
+        "lineHeight": "{lineHeights.50}",
+        "fontSize": "{fontSizes.10}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Typography style for small size body text in bold style. Semantic element - <small>Content</small>"
+    },
+    "caption": {
+      "value": {
+        "fontFamily": "{fontFamilies.openSans}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.50}",
+        "fontSize": "{fontSizes.10}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.10}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Typography style for small size body text. Semantic element - <small>Content</small>"
+    }
+  },
+  "textCase": {
+    "none": {
+      "value": "none",
+      "type": "textCase"
+    },
+    "upperCase": {
+      "value": "uppercase",
+      "type": "textCase",
+      "description": "uppercase-transformation"
+    }
+  },
+  "textDecoration": {
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    },
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    }
+  },
+  "borderRadius": {
+    "2": {
+      "value": "{borderRadius.4}/2",
+      "type": "borderRadius",
+      "description": "border radius for tags"
+    },
+    "4": {
+      "value": "4",
+      "type": "borderRadius",
+      "description": "Border radius base value of 4"
+    },
+    "8": {
+      "value": "{borderRadius.4}*2",
+      "type": "borderRadius",
+      "description": "Border radius base value of 8"
+    },
+    "12": {
+      "value": "{borderRadius.4}*3",
+      "type": "borderRadius",
+      "description": "Border radius base value of 12"
+    },
+    "20": {
+      "value": "{borderRadius.4}*5",
+      "type": "borderRadius",
+      "description": "Border radius base value of 20"
+    },
+    "100": {
+      "value": "{borderRadius.4}*25",
+      "type": "borderRadius",
+      "description": "Border radius base value of 100 for circle"
+    }
+  },
+  "borderWidth": {
+    "1": {
+      "value": "1",
+      "type": "borderWidth",
+      "description": "Border width value of 1px Used in form fields, card, stroked button, visual input"
+    },
+    "2": {
+      "value": "2",
+      "type": "borderWidth",
+      "description": "Border width value of 2px Used in form fields, card, stroked button, visual input"
+    },
+    "half": {
+      "value": ".5",
+      "type": "borderWidth",
+      "description": "Border width value of .5px Used in form fields, card, stroked button, visual input"
+    }
+  },
+  "icon": {
+    "12": {
+      "value": "12px",
+      "type": "dimension",
+      "description": "Used for 12px icon sizes"
+    },
+    "16": {
+      "value": "16px",
+      "type": "dimension",
+      "description": "Used for 16px icon sizes"
+    },
+    "24": {
+      "value": "24px",
+      "type": "dimension",
+      "description": "Used for 24px icon sizes"
+    }
+  },
+  "spacing": {
+    "0": {
+      "value": "0px",
+      "type": "dimension",
+      "description": "Spacing value of 0px"
+    },
+    "2": {
+      "value": "2px",
+      "type": "dimension",
+      "description": "spacing value of 2px"
+    },
+    "4": {
+      "value": "4px",
+      "type": "dimension",
+      "description": "spacing value of 4px"
+    },
+    "8": {
+      "value": "8px",
+      "type": "dimension",
+      "description": "spacing value of 8px"
+    },
+    "12": {
+      "value": "12px",
+      "type": "dimension",
+      "description": "spacing value of 12px"
+    },
+    "16": {
+      "value": "16px",
+      "type": "dimension",
+      "description": "spacing value of 16px"
+    },
+    "24": {
+      "value": "24px",
+      "type": "dimension",
+      "description": "spacing value of 24px"
+    },
+    "32": {
+      "value": "32px",
+      "type": "dimension",
+      "description": "spacing value of 32px"
+    },
+    "48": {
+      "value": "48px",
+      "type": "dimension",
+      "description": "spacing value of 48px"
+    }
+  },
+  "zIndex": {
+    "999": {
+      "value": "999",
+      "type": "other",
+      "description": "Z-index value of 999 used for overlay"
+    },
+    "9999": {
+      "value": "9999",
+      "type": "other",
+      "description": "Z-index value of 9999. Used for dialogs"
+    },
+    "base": {
+      "value": "10",
+      "type": "other",
+      "description": "Base elevation value of 10"
+    }
+  }
+}
